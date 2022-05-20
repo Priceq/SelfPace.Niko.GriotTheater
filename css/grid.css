@@ -8,15 +8,17 @@ body, html {
       width: 90%;
   }
  
-  .left {
-      text-align: left;
-  }
   .right {
-    text-align: right;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    
+    
 }
   .tt{
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 20px;
 }
 .bar {
     height: 2%;
@@ -27,9 +29,6 @@ body, html {
     padding: 0px 30px;
     
 }
-.center hero-text {
-
-}
 
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/theaterimage.png");
@@ -38,6 +37,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    width:100%;
 }
 .hero-text {
     text-align: center;
@@ -107,6 +107,7 @@ div ul{
 .info-container {
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 
 }
 
@@ -118,25 +119,35 @@ div ul{
 .movie-image-container {
     padding-top: 15px;
     padding-left: 90px;
+    
 }
 
 .movie-info-container {
-    padding: 0 30px;
+    
+    margin-left: 50%;
+    margin-top: 10%;
+    
 }
 
 #toggle {
     width: 50%;
-    height: 12%;
+    height: 5vh;
     background-color: orange;
     color: white;
-    border-color: black;
+    border-color:darkgrey;
     border-width: .2px;
+    margin-top: 35%;
+    margin-left: 100%;
 }
 
 .container-title{
-    display: block; margin:70px;
-    height: 30%;
+    display: block; 
+    height: 2.5vh;
     background-color:lightgrey;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 10%;
+
     /* color: black;
     border-width: 1px; 
     position: relative;
@@ -147,4 +158,18 @@ div ul{
     font-size:15px; text-align:left; border:1px solid lightgray; position:relative; 
 }
 
-.container-title { background-color: lightgrey; position: relative; top: 10px; padding: 10 10px;}
+.container-title { background-color: rgb(188, 188, 188); colorposition: relative; top: 10px; padding: 10 10px;
+border-color:black;
+padding-top: 10px;
+padding-left: 60px;
+font-size: 30px;
+padding-bottom: 10px;
+}
+
+#raisin1 { 
+    margin-left: 100%;
+}
+
+.stylesheet{
+    width: 100%;
+}
